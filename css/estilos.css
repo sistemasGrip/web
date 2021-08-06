@@ -1,3 +1,129 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color:black;
+}
+.navbar{
+    background-color: black;
+}
+.nav-link{
+    font-size: 20px;
+    font-family: 'BebasNeue';
+    src: url('/fuentes/BebasNeue-Bold.otf') format('opentype');
+}
+.nav-link:hover{
+    background-color: #9E0E0E;
+}
+.navbar-toggler{
+    background-color: black;                                            
+}
+.carousel{
+    display:grid;
+    padding-top: 100px;
+}
+.contenedor-informacion{
+    padding-top:150px;
+}
+.contenedor-cartas{
+    padding-top: 210px;
+}
+.contenedor-informacion{
+    color:white;
+}
+.card{
+    background-color: transparent;
+}
+.carta-cuerpo{
+    display:none; 
+}
+.carta-imagen:hover > .carta-cuerpo{
+    display:contents;
+}
+.titulo{
+    text-align: center;
+    color: white;
+    font-family: 'BebasNeue';
+    src: url('/fuentes/BebasNeue-Thin.otf') format('opentype');
+}
+.contenedor-formulario{
+    padding-top: 150px;
+    width: 700px;  
+}
+.titulo-formulario{
+    color: #7D7D7D;
+}
+.contenedor_de_preguntas{
+    padding-top: 150px;
+}
+.card-header{
+    background-color: transparent;
+    border-color: #7D7D7D;
+}
+.btn-link:hover{
+    color: #9E0E0E !important;
+}
+.texto-pregunta{
+    color: white;
+}
+.titulo-pregunta{
+    color: #9E0E0E;
+}
+
+
+
+
+
+
+
+
+.facebook,.youtube,.chat,.covid{
+    position:fixed;
+    z-index:100;
+    right:40px;
+    transition:all .5s ease-in-out;
+}
+
+.whatsapp{
+    position:fixed;
+    z-index:100;
+	width:50px;
+	height:40px;
+	bottom:20px;
+    right: 50px;
+}
+.whatsapp:hover{
+    bottom: 30px;
+}
+.facebook{
+	width:60px;
+	height:50px;
+	bottom:80px;
+}
+.facebook:hover{
+    bottom: 90px;
+}
+.youtube{
+	width:60px;
+	height:50px;
+	bottom: 150px;
+}
+.youtube:hover{
+    bottom: 160px;
+}
+.chat{
+	width:60px;
+	height:50px;
+	bottom:210px;
+}
+.chat:hover{
+    bottom: 220px;
+}
+.covid{
+	width:60px;
+	height:70px;
+	bottom:280px;
+}
+.covid:hover{
+    bottom: 290px;
 }
